@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta department="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+</head>
+
+<body>
+    <h2> Registeration Form</h2>
+    <form action='#' method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" department="name" required><br>
+        <label for="password">Password:</label><br>
+        <input type="Password" id="Password" department="Password" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" department="email" required><br>
+        <label for="department">Department:</label><br>
+        <select id="department" name="department" required>
+
+            <option value="">Select Department</option>
+            <option value="HR">HR</option>
+            <option value="Finance">Finance</option>
+            <option value="Marketing">Marketing</option>
+        </select><br><br>
+
+        <label>Gender:</label><br><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">FeMale</label><br><br>
+
+        <input type="Submit" value="Register">
+        </form>
+</body>
+
+</html>
